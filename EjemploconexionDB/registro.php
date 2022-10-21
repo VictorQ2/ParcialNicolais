@@ -70,9 +70,8 @@ if (isset($_GET["verificar"])) {
                 <input type="password" id="password" class="fadeIn third" name="contra" placeholder="password" require>
                 <div class="content-select">
                     <select id="rol" name="rol" require>
-                        <option value="2">Cliente</option>
-                        <option value="3">Trabajador</option>
-                        <option value="4">Asesor</option>
+                        <option value="3">Cliente</option>
+                        <option value="2">Trabajador</option>
                     </select>
                     <i></i>
                 </div>
@@ -88,5 +87,5 @@ if (isset($_GET["verificar"])) {
         </div>
     </div>
 </body>
-
+<?php include "./Cabeza/footer.php";?>
 </html>

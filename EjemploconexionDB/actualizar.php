@@ -1,5 +1,6 @@
 <?php
     include "conexion.php";
+    
 
     if(isset($_GET["actualizar"])){
         $codigo = $_GET["cod"];
@@ -18,6 +19,7 @@
     }
     
 ?>
+<?php include "./Cabeza/header.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -51,4 +53,5 @@
         ?>
  </form>
 </body>
+<?php include "./Cabeza/footer.php";?>
 </html>

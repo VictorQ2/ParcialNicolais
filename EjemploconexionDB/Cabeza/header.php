@@ -6,21 +6,6 @@ if (!isset($_SESSION['Nombre'])) {
     header('Location: inicio.php');
 }
 
-$varsession = $_SESSION['Rol'];
-
-if ($varsession != 1) {
-    echo 'Sin permisos de administrador';
-    header('Location: salir.php');
-    die();
-} else {
-    echo "
-     
-    
-    
-    <script>
-    alert('Bienvenido, " . $_SESSION['Nombre'] . " ');
-    </script>";
-}
 
 
 

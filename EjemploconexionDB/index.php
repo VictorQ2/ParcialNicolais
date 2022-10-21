@@ -18,10 +18,9 @@
                   <p class="card-text"> Sucursal Don Naranja</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button onclick="location.href='DonNaranja.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">9 mins de tu casa</small>
                   </div>
                 </div>
               </div>
@@ -33,8 +32,7 @@
                   <p class="card-text"> Sucursal Don Mango</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button onclick="location.href='DonMango.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -48,8 +46,7 @@
                   <p class="card-text"> Sucursal Doña Mora</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button onclick="location.href='DoñaMora.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -64,8 +61,7 @@
                   <p class="card-text"> Sucursal Don Guineo</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button onclick="location.href='DonGuineo.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -79,8 +75,7 @@
                   <p class="card-text"> Sucursal Don Auyama</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button onclick="location.href='DonAuyama.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -91,11 +86,10 @@
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="./image/banano.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text"> Sucursal Don Banano</p>
+                  <p class="card-text"> Sucursal Don Banano </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="comprar.php">Ir</a></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button onclick="location.href='DonBanano.php'" type="button" class="btn btn-sm btn-outline-secondary">ir</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>

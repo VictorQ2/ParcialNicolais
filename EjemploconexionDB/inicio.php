@@ -10,14 +10,17 @@ if (isset($_GET["verificar"])) {
   $usuario = $_GET["nombre"];
   $contrasena = $_GET["contra"];
 
-  $consulta = "SELECT Id FROM `usuario` WHERE Usuario = '$usuario' AND Contrasena = '$contrasena'";
+  $consulta = "SELECT id, idRol FROM usuario WHERE usuario = '$usuario' AND contrasena = '$contrasena'";
   $resultado = $con->query($consulta);
 
  
   if ($resultado->num_rows == 1) {
 
+    $fila = $resultado->fetch_array();
+
+
     $_SESSION['Nombre'] = $usuario;
-    $_SESSION['Rol'] = 1;
+    $_SESSION['Rol'] = $fila[1];
 
     
     header('Location: index.php');
@@ -55,7 +58,7 @@ if (isset($_GET["verificar"])) {
 
       <!-- Icon -->
       <div class="fadeIn first">
-        <img src="image/logo.jpg" id="icon" alt="User Icon" />
+        <img src="image/logobanano.png" id="icon" alt="User Icon" />
       </div>
 
       <!-- Login Form -->
@@ -73,5 +76,5 @@ if (isset($_GET["verificar"])) {
     </div>
   </div>
 </body>
-
+<?php include "./Cabeza/footer.php";?>
 </html>

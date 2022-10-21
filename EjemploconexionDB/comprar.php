@@ -63,5 +63,5 @@ if (!isset($_SESSION['Nombre'])) {
 </table>
 
 </body>
-
+<?php include "./Cabeza/footer.php";?>
 </html>
